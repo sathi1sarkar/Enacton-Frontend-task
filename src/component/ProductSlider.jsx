@@ -36,10 +36,10 @@ const ProductSlider = () => {
        
       `}
     </style>
-    <div className='h-[14rem] px-[56rem] md:px-[40rem] lg:px-[10rem] pl-0 md:pl-0 lg:pl-0' style={{'width': '1253px','line-height': '10'}}>
+    <div className='h-[14rem] px-[56rem] md:px-[40rem] lg:px-[3rem] pl-0 md:pl-0 lg:pl-0' style={{'width': '1253px','line-height': '10'}}>
         <Swiper 
         slidesPerView={4}
-        spaceBetween={15}
+        spaceBetween={-50}
         breakpoints={{
           320: {
             slidesPerView: 1,
@@ -72,7 +72,7 @@ const ProductSlider = () => {
          
           <div className='text-center leading-[20px]'>
                 <div className='flex justify-center'>
-                  <img src={productImage1} className='w-[70%]' />
+                  <img src={productImage1} className='' />
                 </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -81,7 +81,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-              <img src={productImage2}  className='w-[70%]'/>
+              <img src={productImage2}  className=''/>
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>COCONUT OIL</h3>
             <span className='text-white'><del>$20.00</del> $16.00</span>
@@ -90,7 +90,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-              <img src={productImage3} className='w-[70%]'/>
+              <img src={productImage3} className=''/>
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>MANGO HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -99,7 +99,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-              <img src={productImage4} className='w-[70%]'/>
+              <img src={productImage4} className=''/>
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>HONEY HABANERO</h3>
             <span className='text-white'><del>$9.00</del> $6.00</span>
@@ -108,7 +108,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-              <img src={productImage1} className='w-[70%]' />
+              <img src={productImage1} className='' />
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -117,7 +117,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-              <img src={productImage3} className='w-[70%]'/>
+              <img src={productImage3} className=''/>
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -126,7 +126,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
            <div className='flex justify-center'>
-              <img src={productImage1} className='w-[70%]'/>
+              <img src={productImage1} className=''/>
            </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -135,7 +135,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-            <img src={productImage4} className='w-[70%]' />
+            <img src={productImage4} className='' />
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
@@ -144,7 +144,7 @@ const ProductSlider = () => {
         <SwiperSlide className='text-red  w-[100px !important]'>
           <div className='text-center leading-[20px]'>
             <div className='flex justify-center'>
-             <img src={productImage3} className='w-[70%]'/>
+             <img src={productImage3} className=''/>
             </div>
             <h3 className='text-[18px] font-normal mb-4 font-serif text-[#D29A5A]'>CINNAMON HONEY</h3>
             <span className='text-white'><del>$12.00</del> $9.00</span>
