@@ -5,7 +5,7 @@ import { LuCheckCircle } from "react-icons/lu";
 
 const Contact = () => {
   return (
-    <div className=' max-w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-14  px-[3rem] pl-[6rem] lg:pl-[12rem] md:pl-[12rem]'>
+    <div className=' max-w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-14  px-[3rem] pl-[6rem] lg:pl-[12rem] md:pl-[12rem] '>
        <div className='flex  relative'>
             <div><HiArchive className='w-[36px] h-[32px] text-[#D29A5A]' /></div>
             <div>
