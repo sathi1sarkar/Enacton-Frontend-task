@@ -14,7 +14,7 @@ const OfferSection = () => {
   return (
     <>
    
-        <div className="offer w-[34.2rem] lg:w-[1355.8px] md:w-[56.6rem] mt-[-8rem] px-[3rem] pl-[6rem] lg:pl-[12rem] md:pl-[12rem]">
+        <div className="offer w-[34.2rem] lg:w-[94rem] md:w-[56.6rem] mt-[-5rem] lg:mt-[-8] md:mt-[3rem] px-[3rem] pl-[6rem] lg:pl-[12rem] md:pl-[12rem]">
             <Swiper
             spaceBetween={0}
             centeredSlides={true}
