@@ -36,7 +36,7 @@ const HomeLayout = ({children}) => {
      
       </div>
       <div className=''>
-        <div className='banner w-[34.2rem] lg:w-[98.8vw] md:w-[57.4rem]'>
+        <div className='banner w-[35.2rem] lg:w-[98.8vw] md:w-[57.4rem]'>
           <Swiper
             spaceBetween={0}
             slidesPerView={1}
